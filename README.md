@@ -21,7 +21,7 @@ Then, start the server in development mode:
 $ npm run start-dev
 ```
 
-Finally, Connect to `http://localhost:3002/`
+Finally, connect to `http://localhost:3002/`
 
 ## License
 
