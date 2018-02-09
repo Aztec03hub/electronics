@@ -1,13 +1,36 @@
-# Oh Hai Mark. I mean ##electronics. Yet another full stack javascript boilerplate for building web applications using gulp + webpack3 + bootstrap + angular + express
+# Oh Hai Mark. Er, ##electronics...
 
-To start, do `npm install`, followed by `npm run start-dev`
+Yet another fullstack javascript boilerplate for building web applications using gulp + webpack3 + bootstrap + angular + express
 
-Connect to http://localhost:3002/
+<p align="center">
+  <img src="./EClient Screenshot.png" alt="Dashboard Screenshot"
+       width="654" height="450">
+</p>
 
-Develop. Use this. Thanks to the BlurAdmin team for the OG layout.
+## Getting Started
+
+First install necessary packages:
+
+```sh
+$ npm install
+```
+
+Then, start the server in development mode:
+
+```sh
+$ npm run start-dev
+```
+
+Finally, Connect to `http://localhost:3002/`
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+##
+
+Develop. Use this. Thanks to the [Akveo](https://www.akveo.com/) team (Original producers of [BlurAdmin](https://github.com/akveo/blur-admin)) for the OG layout.
 
 Questions? Get at me on irc.freenode.net, either ##electronics or #43oh
-
-(Rickta this be sorta modern, I guess...)
 
 -SmokinGrunts
