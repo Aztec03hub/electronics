@@ -1,0 +1,107 @@
+.alert{
+  color: $label-text;
+  font-size: 13px;
+  font-weight: $font-light;
+  strong{
+    font-weight: $font-normal;
+  }
+  .close{
+    margin-top: -3px;
+  }
+  .alert-link{
+    font-weight: $font-normal;
+  }
+  .control-alert{
+    padding-top:10px ;
+    button{
+      margin-right: 10px;
+    }
+  }
+}
+
+.closeable{
+  button{
+    color: $input-border;
+  }
+}
+
+.bg-success {
+  background-color: rgba($success,0.85);
+  color: $label-text;
+  a{
+    color: $danger-dark;
+    &:hover{
+      color: $danger;
+    }
+  }
+}
+.bg-info {
+  background-color: rgba($info,0.85);
+  color: $label-text;
+  a{
+    color: $warning-light;
+    &:hover{
+      color: $warning;
+    }
+  }
+}
+.bg-warning {
+  background-color: rgba($warning,0.85);
+  color: $label-text;
+  a{
+    color: $danger-dark;
+    &:hover{
+      color: $danger;
+    }
+  }
+}
+.bg-danger {
+  background-color: rgba($danger,0.85);
+  color: $label-text;
+  a{
+    color: $warning-light;
+    &:hover{
+      color: $warning;
+    }
+  }
+}
+
+// Custom:
+.alert_override{
+  color: #a94442;
+  font-size: inherit;
+  font-weight: inherit;
+  strong{
+    font-weight: $font-normal;
+  }
+  .close{
+    margin-top: -3px;
+  }
+  .alert-link{
+    font-weight: $font-normal;
+  }
+  .control-alert{
+    padding-top:10px ;
+    button{
+      margin-right: 10px;
+    }
+  }
+}
+
+.md-input-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 2px 2px 26px;
+}
+
+[ng-message]{
+  //position: absolute;
+  font-size: 12px;
+  line-height: 24px;
+  color: rgb(221,44,0);
+}

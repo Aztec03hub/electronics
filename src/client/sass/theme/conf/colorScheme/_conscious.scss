@@ -1,0 +1,392 @@
+// Custom Table Striped
+.custom-table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+//th, td {
+  //height:16%;
+  //font-size: 0.75vw;
+//}
+
+.table-thin-row > tbody > tr > td {
+  line-height: 25px !important;
+}
+
+.table > tbody > tr > td, .table > thead > tr > th {
+    //white-space: normal !important;
+    //white-space: initial !important;
+    //white-space: inherit !important;
+    //white-space: unset !important;
+}
+
+// Responsive SVG...?
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 25%; // aspect ratio
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+// D3 Chart Colors:
+
+text {
+  /*fill: #00E2F5;*/
+  fill: #C7E4FF;
+}
+
+.grid .tick {
+    stroke: #00F1D7;
+    opacity: 0.3 !important;
+    shape-rendering: crispEdges !important;
+}
+
+svg {
+    font: 10px sans-serif;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #00E2F5;
+  shape-rendering: crispEdges !important; //Activating crispEdges breaks our solid axis tick line. Find out Why
+}
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke: #69D8F9;
+  stroke-width: 1.2px;
+}
+
+.line.templine {
+  fill: none;
+  stroke: url(#temperature-line-gradient);
+  //stroke: red;
+  stroke-width: 1.2px;
+  opacity: 1;
+}
+
+.line.batteryline {
+  fill: none;
+  stroke: url(#battery-line-gradient);
+  stroke-width: 1.2px;
+  opacity: 1;
+}
+
+.line.aclxline {
+  fill: none;
+  //stroke: #2A9FD6;
+  stroke: #69D8F9;
+  stroke-width: 1.2px;
+}
+
+.area.aclxarea {
+fill: #95BBE4;
+}
+
+.area.temparea {
+fill: #95BBE4;
+}
+
+.line.linefoc {
+stroke: #69D8F9;
+fill: none;
+stroke-width: 0.75px;
+}
+
+.line.linecntx {
+stroke: #69D8F9;
+fill: none;
+stroke-width: 0.75px;
+}
+
+.line.outline {
+stroke: #69D8F9;
+fill: none;
+stroke-width: 0.75px;
+}
+
+.line.ampline {
+stroke: #69D8F9;
+fill: none;
+stroke-width: 0.75px;
+}
+
+
+// FOLLOWING IS GOOD:
+.multilegend {
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+}
+
+.multilegend-child {
+  display: inline-block;
+  padding: 0px 5px 0px 5px;
+}
+
+.multilegend p {
+    display: inline;
+    font-size: 0.8em;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.multilegend .series-marker {
+    height: 1em;
+    width: 1em;
+    border-radius: 35%;
+    background-color: crimson;
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: -0.16rem;
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+
+
+// Custom Vars, sort later
+.conscioustooltip {
+    text-align: center !important;
+    font: 12px sans-serif !important;
+    border-radius: 8px !important;
+    border: 1px solid rgb(94, 120, 148) !important;
+    background: rgb(94, 120, 148) !important;
+    background-color: rgb(94, 120, 148) !important;
+    border-color: rgb(94, 120, 148) !important;
+    color: rgb(241, 255, 254) !important;
+}
+
+.qtip-content {
+  text-align: center !important;
+}
+
+/*.jstree-leaf i {
+  //color: red;
+  color: blue;
+}//*/
+
+a.jstree-anchor > i {
+  WebkitTransition : all 300ms ease-in-out;
+  MozTransition    : all 300ms ease-in-out;
+  MsTransition     : all 300ms ease-in-out;
+  OTransition      : all 300ms ease-in-out;
+  transition       : all 300ms ease-in-out;
+}
+
+/*a.jstree-anchor#n1_anchor > i {
+  WebkitTransition : 'all 300ms easeInOutSine';
+  MozTransition    : 'all 300ms easeInOutSine';
+  MsTransition     : 'all 300ms easeInOutSine';
+  OTransition      : 'all 300ms easeInOutSine';
+  transition       : 'all 300ms easeInOutSine';
+  -ms-transform: scale(1); // IE 9
+  -webkit-transform: scale(1); // Chrome, Safari, Opera
+  transform: scale(1);
+}
+
+a.jstree-anchor#n1_anchor > i.animate {
+  -ms-transform: scale(1.5); // IE 9
+  -webkit-transform: scale(1.5); // Chrome, Safari, Opera
+  transform: scale(1.5);
+}*/
+
+// Material UI Design Guidelines Vars:
+// Palette:
+// Indigo(https://material.io/guidelines/style/color.html#color-color-palette)
+$p50: #E8EAF6;
+$p100: #C5CAE9;
+$p200: #9FA8DA;
+$p300: #7986CB;
+$p400: #5C6BC0;
+$p500: #3F51B5;
+$p600: #3949AB;
+$p700: #303F9F;
+$p800: #283593;
+$p900: #1A237E;
+// Accent Colors:
+$pA100: #8C9EFF;
+$pA200: #536DFE;
+$pA400: #3D5AFE;
+$pA700: #304FFE;
+
+// Custom, New Palette:
+$c1: #0179C5; // Lightest
+$c2: #273649; // Lighter
+$c3: #202F42; // Primary
+$c4: #1A2A3A; // Darker
+$c5: #162230; // Darkest
+
+$topbar: $c1;
+
+// Background: 500
+$body-bg: $c3; // Body background color
+// Cards/Dialogs/Panels/Modals: 400
+$panel-bg: $c2; // Panel background color
+
+$search-text: rgba(#FFFFFF, 0.7);
+
+// Logo
+$logo-primary: rgba(#99c6ff, 1); // Logo primary (span) text color
+$logo-secondary: rgba(#99c6ff, 0.7); // Logo secondary color
+$logo-secondary-hover: rgba(#FFFFFF, 0.7); // Logo secondary hover color
+
+// Sidebar
+// Inactive sidebar color
+$sidebar: $c4;
+
+// Hover Sidebar
+$sidebar-hover: #4D5E73;
+
+// Active Sidebar
+$sidebar-active: #354356;
+
+// Inactive Sidebar Text
+$sidebar-text: rgba(#aad2ff, 0.7); // Sidebar text color
+
+// Hover Sidebar Text
+$sidebar-text-hover: rgba(#99c6ff, 1);
+
+// Active Sidebar Text
+$sidebar-text-active: rgba(#ffffff, 1);
+
+//--------------------
+
+// Primary Colors:
+// Lighter: 100
+$prim-lighter: rgba($p400, 1);
+// Default: 500
+$prim-default: rgba($p500, 1);
+// Darker: 700
+$prim-darker: rgba($p700, 1);
+
+// Secondary/Accent Colors:
+// Lighter: A100
+$sec-lighter: rgba($pA100, 1);
+// Default: A200
+$sec-default: rgba($pA200, 1);
+// Darker: A400
+$sec-darker: rgba($pA400, 1);
+
+// Text (opacity):
+// Primary Text: 100%
+// Secondary Text: 70%
+// Disabled/Hint Text: 50%
+// Dividers: 12%
+
+// Light Icons (opacity):
+// Active Icon: 100%
+// Inactive Icon: 50%
+
+// Dark Icons (opacity):
+// Active Icon: 54%
+// Inactive Icon: 38%
+
+// Main
+$default: $prim-default; // Default background color
+$default-text: #FFFFFF; // Default text color
+$help-text: #eeeeee; // Default subtext color
+$label-text: #ffffff; // Text for labels in forms (Basically it should be equal to default-text in most cases)
+$disabled: #dddddd;
+$disabled-bg: transparent;
+$border: #ffffff;
+$border-light: rgba(#ffffff, 0.2);
+$input-border: transparent;
+//$input-border: rgba(#000000, 0.5);
+$input-background: rgba(#000000, 0.15);
+
+// Panel
+
+// Sidebar & Topbar
+$dropdown-text: #7d7d7d;
+$bootstrap-panel-text: #7d7d7d;
+$bootstrap-panel-bg: #ffffff;
+$mail-box: whitesmoke;
+$auth-panel-background: rgba(#000000, 0.55);
+$progress-background: rgba(#000000, 0.15);
+$progress-default: #ffffff;
+
+// Sorted:
+
+// Final:
+
+// Google Material UI Guidelines:
+// Dark Theme (Palette Value - Actual Value):
+// App Bar/Top Bar: 900 -
+// Background:
+// Cards/Dialogs: 800 -
+
+// Primary Color (Palette Value - Actual Value):
+// Default: 500 - #3F51B5
+// Lighter: 100 - #C5CAE9
+// Darker: 700 - #303F9F
+
+// Secondary/Accent Color (Palette Value - Actual Value):
+// Default: A200 - #536DFE
+// Lighter: A100 - #8C9EFF
+// Darker: A400 - #3D5AFE
+
+// Text (opacity):
+// Primary Text: 100%
+// Secondary Text: 70%
+// Disabled/Hint Text: 50%
+// Dividers: 12%
+
+// Light Icons (opacity):
+// Active Icon: 100%
+// Inactive Icon: 50%
+
+// Dark Icons (opacity):
+// Active Icon: 54%
+// Inactive Icon: 38%
+
+// For Testing:
+// Red: #F44336
+// Green: #4CAF50
+// Yellow: #FFEB3B
+
+// Chosen Shades (Palette Value - Actual Value):
+// Default: 500 - #3F51B5
+// Darker:
+// Lighter:
+
+/////////////////////////////////////////
+
+// Other
+$primary: #209e91 !default;
+$info: #2dacd1 !default;
+$success: #90b900 !default;
+$warning: #dfb81c !default;
+$danger: #e85656 !default;
+
+$primary-light: tint($primary, 30%);
+$info-light: tint($info, 30%);
+$success-light: tint($success, 30%);
+$warning-light: tint($warning, 30%);
+$danger-light: tint($danger, 30%);
+
+$primary-dark: shade($primary, 15%);
+$info-dark: shade($info, 15%);
+$success-dark: shade($success, 15%);
+$warning-dark: shade($warning, 15%);
+$danger-dark: shade($danger, 15%);
+
+$primary-bg: tint($primary, 20%);
+$info-bg: tint($info, 20%);
+$success-bg: tint($success, 20%);
+$warning-bg: tint($warning, 20%);
+$danger-bg: tint($danger, 20%);
