@@ -4,7 +4,7 @@ Yet another fullstack javascript boilerplate for building web applications using
 
 <p align="center">
   <img src="./EClient Screenshot.png" alt="Dashboard Screenshot"
-       width="654" height="450">
+       width="1000" height="518">
 </p>
 
 ## Getting Started
