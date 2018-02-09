@@ -6,4 +6,8 @@ Connect to http://localhost:3002/
 
 Develop. Use this. Thanks to the BlurAdmin team for the OG layout.
 
+Questions? Get at me on irc.freenode.net, either ##electronics or #43oh
+
 (Rickta this be sorta modern, I guess...)
+
+-SmokinGrunts
