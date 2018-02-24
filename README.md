@@ -6,6 +6,7 @@ Yet another fullstack javascript boilerplate for building web applications using
 
 ###### Also, it's Angular 1.6.6
 ###### I don't really support the breakneck rate of major development framework changes.
+###### If you're on mobile, tap on the screenshot below to see it properly. I'll fix it eventually. I promise.
 
 <p align="center">
   <img src="./EClient Screenshot.png" alt="Dashboard Screenshot"
