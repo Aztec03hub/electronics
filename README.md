@@ -2,6 +2,11 @@
 
 Yet another fullstack javascript boilerplate for building web applications using gulp + webpack3 + bootstrap + angular + express
 
+###### There's a ton of shit going on in here. Just look at package.json
+
+###### Also, it's Angular 1.6.6
+###### I don't really support the breakneck rate of major development framework changes.
+
 <p align="center">
   <img src="./EClient Screenshot.png" alt="Dashboard Screenshot"
        width="1000" height="518">
